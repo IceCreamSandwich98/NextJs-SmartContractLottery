@@ -22,30 +22,9 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-to run this project, you must have a local hardhat network up and running. To do so, you will use either **npm** or **yarn**. To add yarn, type "**yarn**, into the terminal, then type "**yarn add --dev hardhat** to add hardhat. You will then see a pop up similar to this...
-*****************************************************************************************
-$ npx hardhat
-888    888                      888 888               888
-888    888                      888 888               888
-888    888                      888 888               888
-8888888888  8888b.  888d888 .d88888 88888b.   8888b.  888888
-888    888     "88b 888P"  d88" 888 888 "88b     "88b 888
-888    888 .d888888 888    888  888 888  888 .d888888 888
-888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
-888    888 "Y888888 888     "Y88888 888  888 "Y888888  "Y888
 
-👷 Welcome to Hardhat v2.9.9 👷‍
-
-? What do you want to do? …
-  Create a JavaScript project
-  Create a TypeScript project
-  Create an empty hardhat.config.js
-  Quit
-  ****************************************************************************************
-  
-  ...select "create a JavaScript project", then after everything is finished loading, run "**yarn hardhat node**", to creat local node.
+to run this project, you must have a local hardhat network up and running. To do so, you will use either **npm** or **yarn**. To add yarn, type "**yarn**, into the terminal, then type "**yarn add --dev hardhat** to add hardhat. You will then see a pop up in the terminal with multiple options. elect "create a JavaScript project", then after everything is finished loading, run "**yarn hardhat node**", to creat local node.
   
 
 ## Usage
