@@ -2,40 +2,17 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-My motivation for this project was that I wanted to demonstrate everything i have learned to far on the back-end. I build this to help refine my solidity and js skills, get me more comfortable with troubleshooting, as well as becomming more knowledgeable with the set up of solidity projects. Some examples of what i've learned was the importiance of building strong and thorough tests and deployment scripts, as well as being able to artifically access on chain contracts via mocks. 
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+My goal for this project was that I wanted to demonstrate everything i have learned to far on the back-end. I build this to help refine my solidity and js skills, get me more comfortable with troubleshooting, as well as becomming more knowledgeable with the set up of solidity projects. Some examples of what i've learned was the importiance of building strong and thorough tests and deployment scripts, as well as being able to artifically access on chain contracts via mocks. 
 
 ## Installation
 
+The only requirement from the user is to have a web3 wallet connected to a hardhat local host chain id with ethereum.
 
+On the dev end, I must spin up a fake hardhat blockchain, and double check the website is up and running. 
 
-to run this project, you must have a local hardhat network up and running. To do so, you will use either **npm** or **yarn**. To add yarn, type "**yarn**, into the terminal, then type "**yarn add --dev hardhat** to add hardhat. You will then see a pop up in the terminal with multiple options. elect "create a JavaScript project", then after everything is finished loading, run "**yarn hardhat node**", to creat local node.
+After this, all the user needs to do is click "enter raffle" button and deposite hardhat eth.
   
 
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
