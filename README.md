@@ -6,6 +6,12 @@ My goal for this project was that I wanted to demonstrate everything i have lear
 
 ## Installation
 
+1.) copy repository from github
+2.) install dependencies (yarn, yarn add --dev hardhat
+```
+yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
+```
+
 The only requirement from the user is to have a web3 wallet connected to a hardhat local host chain id with ethereum.
 
 On the dev end, I must spin up a fake hardhat blockchain, and double check the website is up and running. 
