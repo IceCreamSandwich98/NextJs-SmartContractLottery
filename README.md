@@ -18,6 +18,9 @@ yarn add --dev hardhat
 yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
 ```
 
+3. add needed information in .env 
+4. yarn hardhat compile to make sure everything works correctly
+
 The only requirement from the user is to have a web3 wallet connected to a hardhat local host chain id with ethereum.
 
 On the dev end, I must spin up a fake hardhat blockchain, and double check the website is up and running. 
