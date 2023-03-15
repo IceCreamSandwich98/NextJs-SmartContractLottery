@@ -6,7 +6,7 @@ My goal for this project was that I wanted to demonstrate everything i have lear
 
 ## Installation
 
-1.) copy repository from github
+1.) copy repository from github <br></br>
 2.) install dependencies
 ```
 yarn
